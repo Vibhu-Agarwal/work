@@ -1,6 +1,6 @@
 # Showcase
 
-[aviaryan.in/work/](https://aviaryan.in/work/)
+[https://vibhu-agarwal.github.io/](https://vibhu-agarwal.github.io/)
 
 My open source projects portfolio. Built with React.
 

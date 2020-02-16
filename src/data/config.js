@@ -1,3 +1,3 @@
 export default {
-	title: 'Avi Aryan\'s Portfolio'
+	title: 'Vibhu\'s Projects'
 }
