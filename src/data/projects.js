@@ -132,22 +132,6 @@ let projects = [
 		tags: ['automation', 'python', 'speech-to-text', 'selenium']
 	},
 	{
-		id: 'uttt',
-		name: 'Ultimate Tic-Tac-Toe',
-		desc: [
-			'Highly modified version of ordinary tic-tac-toe game',
-			'A Desktop App made in Java',
-			'9 individual mini boards contained within 1 main board',
-			'Constrained moves within the main board',
-			'Advantages and Penalties',
-			'Overall lesser tied results'
-		],
-		date: '2018-18',
-		websites: ['http://bit.ly/Ultimate-Tic-Tac-Toe'],
-		weight: 2,
-		tags: ['game', 'java', 'swing', 'desktop-app']
-	},
-	{
 		id: 'score-keeper-app',
 		name: 'El-Clasico',
 		desc: [
@@ -176,6 +160,17 @@ let projects = [
 		tags: ['windows', 'python', 'gui-automation', 'ms-paint']
 	},
 	{
+		id: 'gesture-based-gui-controller',
+		name: 'Gesture Recognition GUI-Controller',
+		desc: [
+			'A project which recongizes gestures and performs certain GUI operations.',
+		],
+		date: '2018-18',
+		github: 'https://github.com/Vibhu-Agarwal/Gesture-Recognition-GUI-Controller',
+		weight: 2,
+		tags: ['arduino', 'python', 'gui-automation']
+	},
+	{
 		id: 'codechef',
 		name: 'Codechef-Problems-Solved',
 		desc: [
@@ -189,6 +184,22 @@ let projects = [
 		tags: ['web-scraping', 'python', 'cli', 'automation', 'selenium']
 	},
 	{
+		id: 'uttt',
+		name: 'Ultimate Tic-Tac-Toe',
+		desc: [
+			'Highly modified version of ordinary tic-tac-toe game',
+			'A Desktop App made in Java',
+			'9 individual mini boards contained within 1 main board',
+			'Constrained moves within the main board',
+			'Advantages and Penalties',
+			'Overall lesser tied results'
+		],
+		date: '2018-18',
+		websites: ['http://bit.ly/Ultimate-Tic-Tac-Toe'],
+		weight: 2,
+		tags: ['game', 'java', 'swing', 'desktop-app']
+	},
+	{
 		id: 'imdb-rating',
 		name: 'IMDB-Rating',
 		desc: [
@@ -199,17 +210,6 @@ let projects = [
 		github: 'https://github.com/Vibhu-Agarwal/IMDB-Rating',
 		weight: 2,
 		tags: ['web-scraping', 'python', 'cli']
-	},
-	{
-		id: 'gesture-based-gui-controller',
-		name: 'Gesture Recognition GUI-Controller',
-		desc: [
-			'A project which recongizes gestures and performs certain GUI operations.',
-		],
-		date: '2018-18',
-		github: 'https://github.com/Vibhu-Agarwal/Gesture-Recognition-GUI-Controller',
-		weight: 2,
-		tags: ['arduino', 'python', 'gui-automation']
 	},
 	{
 		id: 'memory-game',
