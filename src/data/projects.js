@@ -4,7 +4,24 @@
 
 let projects = [
 	{
-		id: 'hitmenews',
+		id: 'entry-management-app',
+		name: 'Entry Management App',
+		desc: [
+			'A web application for an organization to manage entry records of visitors',
+			'Entry Management App is a web application that can be used at entry-points at several places, \
+			partcularly targetting offices where it needs to digitalize their process of maintaining records of visitors and visits.',
+			'The application keeps the users updated about entry and exit of the visit through text messages and mails.',
+			'The application backed by Django framework and for its back-end and uses SQLite3 as database to store data. \
+			It also makes use of Twilio APIs to send SMS to Hosts of the Visit. \
+			The front-end of the application is written in HTML and CSS and uses AJAX calls with forms for auto-completion.'
+		],
+		date: '2019-19',
+		github: 'https://github.com/Vibhu-Agarwal/Entry_Management_App',
+		weight: 2,
+		tags: ['django', 'python', 'twilio-api', 'ajax']
+	},
+	{
+		id: 'hit-me-news',
 		name: 'Hit-Me-News',
 		desc: [
 			'An Alexa Skill which keeps you updated about the latest headlines',
@@ -30,6 +47,17 @@ let projects = [
 		github: 'https://github.com/Vibhu-Agarwal/',
 		weight: 2,
 		tags: ['django', 'sih', 'python', 'openpyxl']
+	},
+	{
+		id: 'guess-them-avengers',
+		name: 'Guess Them Avengers',
+		desc: [
+			"An Alexa Skill based around quizzing Marvel's Avengers",
+		],
+		date: '2019-19',
+		github: 'https://github.com/Vibhu-Agarwal/guess-Them-Avengers/',
+		weight: 2,
+		tags: ['alexa', 'aws-lambda', 'python']
 	},
 	{
 		id: 'amfr',
@@ -63,6 +91,21 @@ let projects = [
 		tags: ['github-api', 'python', 'oauth', 'flask', 'desktop-app']
 	},
 	{
+		id: 'potter-spells',
+		name: 'potter-spells',
+		desc: [
+			'A python package to list all Harry Potter spells.',
+			'Specifically, the scripts scrape the data from the website harrypotter.wikia.com and and provides all the spells.',
+			'The various python scripts provides various filters to list out the spells and enchantments \
+			(magic enchantments which are not specifically spells).',
+		],
+		date: '2018-18',
+		github: 'https://github.com/Vibhu-Agarwal/potter_spells',
+		websites: ['https://pypi.org/project/potter-spells/'],
+		weight: 2,
+		tags: ['python', 'packaging', 'web-scraping', 'pypi']
+	},
+	{
 		id: 'automate-fb-posting',
 		name: 'Automated Facebook Posting via Speech to Text',
 		desc: [
@@ -91,6 +134,71 @@ let projects = [
 		websites: ['http://bit.ly/Ultimate-Tic-Tac-Toe'],
 		weight: 2,
 		tags: ['game', 'java', 'swing', 'desktop-app']
+	},
+	{
+		id: 'interactive-resume',
+		name: 'Interactive Resume on CLI',
+		desc: [
+			'My Interactive Resume made command-line up',
+			'Proper Highlighting by using bold/italics with appropriate colors.',
+			'Packaged in Python and published on PyPI'
+		],
+		date: '2019-19',
+		github: 'https://github.com/Vibhu-Agarwal/vibhu4agarwal',
+		websites: ['https://pypi.org/project/vibhu4agarwal/'],
+		weight: 2,
+		tags: ['cli', 'python', 'packaging', 'pypi', 'resume']
+	},
+	{
+		id: 'score-keeper-app',
+		name: 'El-Clasico',
+		desc: [
+			'An Android App to help record the score of a Football Match.',
+			'The app can keep up the score of the game providing the features of counting goals, shots, shots on target, \
+			fouls committed, corners taken, or number of offside calls against the team and lastly, a Reset button.',
+			'Used Relative Layout as the outermost Layout and all the nested layouts are \
+			Linear Layouts with different orientations according to the need in different sections.',
+			'Look and feel of the app belongs to the primary colours of the two teams. \
+			White and Blue belonging to Madrid, and Blue and Yellow to Barcelona.'
+		],
+		date: '2018-18',
+		github: 'https://github.com/Vibhu-Agarwal/Score-Keeper-App',
+		weight: 2,
+		tags: ['android', 'java', 'football']
+	},
+	{
+		id: 'automated-draw-ms-paint',
+		name: 'Automated Draw in MS-Paint',
+		desc: [
+			'Using GUI Automation, opens MS-paint and draws mentioned words using brushes or pencils.',
+		],
+		date: '2018-18',
+		github: 'https://github.com/Vibhu-Agarwal/Automated-Draw-In-MS-Paint',
+		weight: 2,
+		tags: ['windows', 'python', 'gui-automation', 'ms-paint']
+	},
+	{
+		id: 'imdb-rating',
+		name: 'IMDB-Rating',
+		desc: [
+			'Type in the movie name and the script displays the rating and duration of the movie.',
+			'Scrapes the official IMDB Website and get the information dynamically.'
+		],
+		date: '2018-18',
+		github: 'https://github.com/Vibhu-Agarwal/IMDB-Rating',
+		weight: 2,
+		tags: ['web-scraping', 'python', 'cli']
+	},
+	{
+		id: 'gesture-based-gui-controller',
+		name: 'Gesture Recognition GUI-Controller',
+		desc: [
+			'A project which recongizes gestures and performs certain GUI operations.',
+		],
+		date: '2018-18',
+		github: 'https://github.com/Vibhu-Agarwal/Gesture-Recognition-GUI-Controller',
+		weight: 2,
+		tags: ['arduino', 'python', 'gui-automation']
 	},
 ];
 
