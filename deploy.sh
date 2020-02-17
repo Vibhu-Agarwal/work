@@ -8,16 +8,15 @@ mkdir -p deploy
 cp -f index.html deploy/
 cp -f sw.js deploy/
 cp -f manifest.json deploy/
-mkdir -p deploy/dist
-cp -fR dist/ deploy/dist/
-mkdir -p deploy/img
-cp -fR img/ deploy/img/
+cp -fR dist/ deploy/
+cp -fR img/ deploy/
 
 git checkout gh-pages
-cp -fR deploy/ .
+cp -fR deploy/* .
 
 rm -rf deploy/
 git add .
+git status
 git commit -m "deploy"
 git push origin gh-pages
 
