@@ -44,7 +44,6 @@ let projects = [
 			'Make calculations of GVA and other parameters and Reports statements and view insights through Charts and Graphs.'
 		],
 		date: '2019-19',
-		github: 'https://github.com/Vibhu-Agarwal/',
 		weight: 2,
 		tags: ['django', 'sih', 'python', 'openpyxl']
 	},
@@ -144,7 +143,6 @@ let projects = [
 			'Overall lesser tied results'
 		],
 		date: '2018-18',
-		github: 'https://github.com/Vibhu-Agarwal/',
 		websites: ['http://bit.ly/Ultimate-Tic-Tac-Toe'],
 		weight: 2,
 		tags: ['game', 'java', 'swing', 'desktop-app']
