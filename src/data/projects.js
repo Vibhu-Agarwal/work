@@ -186,7 +186,7 @@ let projects = [
 		date: '2018-18',
 		github: 'https://github.com/Vibhu-Agarwal/Codechef-Problems-Solved',
 		weight: 2,
-		tags: ['web-scraping', 'python', 'cli', 'browser-automation', 'selenium']
+		tags: ['web-scraping', 'python', 'cli', 'automation', 'selenium']
 	},
 	{
 		id: 'imdb-rating',
