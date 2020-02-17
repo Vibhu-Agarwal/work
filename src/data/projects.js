@@ -60,6 +60,20 @@ let projects = [
 		tags: ['alexa', 'aws-lambda', 'python']
 	},
 	{
+		id: 'interactive-resume',
+		name: 'Interactive Resume on CLI',
+		desc: [
+			'My Interactive Resume made command-line up',
+			'Proper Highlighting by using bold/italics with appropriate colors.',
+			'Packaged in Python and published on PyPI'
+		],
+		date: '2019-19',
+		github: 'https://github.com/Vibhu-Agarwal/vibhu4agarwal',
+		websites: ['https://pypi.org/project/vibhu4agarwal/'],
+		weight: 2,
+		tags: ['cli', 'python', 'packaging', 'pypi', 'resume']
+	},
+	{
 		id: 'amfr',
 		name: 'Attendance Management through Face Recognition',
 		desc: [
@@ -136,20 +150,6 @@ let projects = [
 		tags: ['game', 'java', 'swing', 'desktop-app']
 	},
 	{
-		id: 'interactive-resume',
-		name: 'Interactive Resume on CLI',
-		desc: [
-			'My Interactive Resume made command-line up',
-			'Proper Highlighting by using bold/italics with appropriate colors.',
-			'Packaged in Python and published on PyPI'
-		],
-		date: '2019-19',
-		github: 'https://github.com/Vibhu-Agarwal/vibhu4agarwal',
-		websites: ['https://pypi.org/project/vibhu4agarwal/'],
-		weight: 2,
-		tags: ['cli', 'python', 'packaging', 'pypi', 'resume']
-	},
-	{
 		id: 'score-keeper-app',
 		name: 'El-Clasico',
 		desc: [
@@ -178,6 +178,19 @@ let projects = [
 		tags: ['windows', 'python', 'gui-automation', 'ms-paint']
 	},
 	{
+		id: 'codechef',
+		name: 'Codechef-Problems-Solved',
+		desc: [
+			'Just enter the username, and get the problems solved by the user on codechef.',
+			'Also, you can view all submissions for a problem by that user in your Google Chrome tab: \
+			press enter after \'content found\' shows. Then enter a problem code to search for its submissions.'
+		],
+		date: '2018-18',
+		github: 'https://github.com/Vibhu-Agarwal/Codechef-Problems-Solved',
+		weight: 2,
+		tags: ['web-scraping', 'python', 'cli', 'browser-automation', 'selenium']
+	},
+	{
 		id: 'imdb-rating',
 		name: 'IMDB-Rating',
 		desc: [
@@ -200,6 +213,17 @@ let projects = [
 		weight: 2,
 		tags: ['arduino', 'python', 'gui-automation']
 	},
+	{
+		id: 'memory-game',
+		name: 'Memory Game',
+		desc: [
+			'A Classic 3x3 Memory Game (Desktop App) using Grid Layout in Java',
+		],
+		date: '2017-17',
+		github: 'https://github.com/Vibhu-Agarwal/Memory-Game',
+		weight: 2,
+		tags: ['game', 'java', 'swing', 'desktop-app']
+	}
 ];
 
 
