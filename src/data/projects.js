@@ -4,6 +4,20 @@
 
 let projects = [
 	{
+		id: 'av-helper',
+		name: 'av-helper',
+		desc: [
+			'An Audio-Video Helper Utility Package in Python',
+			'Convert video-format file to audio-format file',
+			'Merge an Audio-file to a video file at a particular frame with option of modifying volume level',
+		],
+		date: '2020-20',
+		github: 'https://github.com/Vibhu-Agarwal/av_helper/',
+		websites: ['https://pypi.org/project/av-helper/'],
+		weight: 2,
+		tags: ['audio-video', 'cli', 'python', 'packaging', 'pypi']
+	},
+	{
 		id: 'entry-management-app',
 		name: 'Entry Management App',
 		desc: [
