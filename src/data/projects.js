@@ -4,6 +4,23 @@
 
 let projects = [
 	{
+		id: 'el-clasico',
+		name: 'El Clásico',
+		desc: [
+			'A simple score-keeper-app made in React Native',
+			'The app can keep up the score of the game providing the features of counting goals, shots, shots on target, \
+			fouls committed, corners taken, or number of offside calls against the team.',
+			'Look and feel of the app belongs to the primary colours of the two teams. \
+			White and Blue belonging to Madrid, and Blue and Yellow to Barcelona.',
+			'Replica of https://vibhu-agarwal.github.io/projects/#/score-keeper-app in React Native'
+		],
+		date: '2020-20',
+		github: 'https://github.com/Vibhu-Agarwal/El_Clasico',
+		weight: 2,
+		tags: ['android', 'ios', 'react-native', 'javascript', 'football']
+
+	},
+	{
 		id: 'av-helper',
 		name: 'av-helper',
 		desc: [
