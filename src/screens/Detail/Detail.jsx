@@ -10,6 +10,7 @@ import state from '../../lib/state'
 import patternGen from '../../lib/pattern'
 import ldColor from '../../lib/ligthenDarkenColor'
 import config from '../../data/config'
+import YouTube from 'react-youtube'
 
 
 export default class ProjectDetail extends Component {
@@ -69,6 +70,12 @@ export default class ProjectDetail extends Component {
 		let descDOM = project.desc.map((d, index) =>
 			<p key={project.id + "" + index}>{d}</p>
 		);
+		// YouTube
+		const YouTubeOptions = {
+			height: "100%",
+			width: "100%",
+			playerVars: {}
+		}
 		// render
 		return (
 			<div className={[appStyles.app, styles.page].join(' ')}>
@@ -98,6 +105,13 @@ export default class ProjectDetail extends Component {
 				<div className={styles.tags}>
 					{tagsDOM}
 				</div>
+				
+				{project.YouTube && <div className={styles.YouTube}>
+					<YouTube
+						videoId={project.YouTube}
+						opts={YouTubeOptions}
+					/>
+				</div>}
 
 			</div>
 		);
