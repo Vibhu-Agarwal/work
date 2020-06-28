@@ -8,3 +8,4 @@ deploy/
 
 # local surge deploy
 CNAME
+.history/
