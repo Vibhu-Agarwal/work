@@ -1,0 +1,11 @@
+node_modules/
+*bundle.js
+styles.css
+.DS_Store
+
+.idea/
+deploy/
+
+# local surge deploy
+CNAME
+./history
