@@ -117,7 +117,7 @@ let projects = [
 		date: '2018-19',
 		github: 'https://github.com/Marauders-9998/Attendance-Management-using-Face-Recognition',
 		weight: 2,
-		tags: ['tkinter', 'python', 'opencv', 'openpyxl']
+		tags: ['tkinter', 'python', 'opencv', 'openpyxl', 'desktop-app']
 	},
 	{
 		id: 'marauders-website',
@@ -132,7 +132,7 @@ let projects = [
 		github: 'https://github.com/Marauders-9998/Marauders-Website',
 		websites: ['http://marauders9998.herokuapp.com/'],
 		weight: 2,
-		tags: ['github-api', 'python', 'oauth', 'flask', 'desktop-app']
+		tags: ['github-api', 'python', 'oauth', 'flask']
 	},
 	{
 		id: 'potter-spells',
