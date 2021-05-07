@@ -4,6 +4,56 @@
 
 let projects = [
 	{
+		id: 'Hedwig',
+		name: 'Hedwig 🦉💬',
+		desc: [
+			'An asynchronus web-server to support chat-applications having multiple rooms/groups.',
+			'Hedwig is built using FastAPI and websockets.',
+			'Redis is used as the caching layer for messages - its Pub/Sub feature is used for triggering sending/receiving of messages.',
+			'MongoDB is used as the persistent storage',
+		],
+		date: '2021-21',
+		github: 'https://github.com/shawarmaKoders/Hedwig',
+		weight: 2,
+		tags: ['asynchronous', 'python', 'webserver', 'fastapi', 'websockets', 'chat', 'redis']
+	},
+	{
+		id: 'Hostel-Adda',
+		name: 'Hostel-Adda',
+		desc: [
+			'A cross-platform mobile app to simplify the life of hostellers.',
+			'The app has a plethora of features, few of them being: managing local-area tasks like laundry, making bulk orders among various hostellers, notices broadcasting and dedicated chatting.',
+			'The App is primarily made using React-Native and is built around tools and libraries provided by Expo.',
+			'The back-end follows a micro-service architecture comprising of different services using different programming languages',
+			'The primary service is backed by ExpressJS based back-end which is hosted on Heroku Servers.',
+			'Other services like chatting (which uses Hedwig, the messenger) are hosted independently.',
+			'MongoDB is used as the Database.',
+		],
+		date: '2020-21',
+		github: 'https://github.com/shawarmaKoders/HostelAdda',
+		websites: ['https://play.google.com/store/apps/details?id=com.vibhu4agarwal.Hostel_Adda'],
+		weight: 2,
+		tags: ['android', 'ios', 'react-native', 'javascript', 'nodejs', 'mongoDB']
+
+	},
+	{
+		id: 'Binge-o-Philia',
+		name: 'Binge-o-Philia',
+		desc: [
+			'A full-fledged social networking platform developed for movie enthusiasts',
+			'An app to keep the movie-buffs connected, updated and well managed of their time, activities and data',
+			'The App is primarily made using React-Native and is built around tools and libraries provided by Expo.',
+			'The application is backed by Django framework based back-end which is hosted on Heroku Servers.',
+			'Database and Storage is completely decoupled from the back-end by using separate services for them in the form of Amazon’s AWS S3 and PostgreSQL.',
+		],
+		date: '2020-20',
+		github: 'https://github.com/Vibhu-Agarwal/App-Innovation-Challenge-2020',
+		websites: ['https://play.google.com/store/apps/details?id=com.vibhu4agarwal.Binge_o_Philia'],
+		weight: 2,
+		tags: ['android', 'ios', 'react-native', 'javascript', 'django', 'aws-s3']
+
+	},
+	{
 		id: 'el-clasico',
 		name: 'El Clásico',
 		desc: [
