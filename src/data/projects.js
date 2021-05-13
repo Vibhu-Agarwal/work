@@ -46,6 +46,22 @@ let projects = [
 		tags: ["android", "ios", "react-native", "javascript", "nodejs", "mongoDB"],
 	},
 	{
+		id: "single-sign-on",
+		name: "Single-Sign-On",
+		desc: [
+			"A server implementation to centralize authorization and authentication in your architecture.",
+			"Single-Sign-On (SSO) allows users to authenticate with a single ID and password to any of several related, yet independent, software systems.",
+			"It's implemented using Django, uses cryptography for generating public and private keys and serves using REST-APIs.",
+			"This was originally developed during my the time when I was working at VigaStudios.",
+			"Also, I spoke about it at PyCon India and PyCon Sweden in 2020 :)",
+		],
+		date: "2020-20",
+		github:
+			"https://github.com/Vibhu-Agarwal/Developing-an-SSO-Service-using-Django",
+		weight: 2,
+		tags: ["python", "django", "sso", "authentication"],
+	},
+	{
 		id: "Binge-o-Philia",
 		name: "Binge-o-Philia",
 		desc: [
@@ -62,6 +78,23 @@ let projects = [
 		],
 		weight: 2,
 		tags: ["android", "ios", "react-native", "javascript", "django", "aws-s3"],
+	},
+	{
+		id: "notification-server",
+		name: "Notification-Server",
+		desc: [
+			"A server to make HTTP requests at a particular time with a database-backed work queue",
+			"This project aims to be a very easy-to-use server to schedule HTTP request-APIs (for GET, POST, PATCH etc.) in future.",
+			"It can be used for scheduling reminders or for monitoring a particular server - without having to manually configure celery.",
+			"It is built using django-background-tasks which is loosely based around Ruby’s DelayedJob library.",
+		],
+		date: "2020-20",
+		github: "https://github.com/Vibhu-Agarwal/notification-server",
+		websites: [
+			"https://vibhu4agarwal.hashnode.dev/scheduling-notifications-in-django",
+		],
+		weight: 2,
+		tags: ["python", "django", "scheduling", "notifications"],
 	},
 	{
 		id: "el-clasico",
