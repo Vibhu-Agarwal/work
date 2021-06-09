@@ -96,7 +96,7 @@ export default class App extends Component {
 				</div>
 				<footer className={styles.footerDiv}>
 					<div>
-						Vibhu's <a href="https://vibhu-agarwal.github.io/static/Vibhu_Resume_2020.pdf" target="_blank">resume</a>
+						Vibhu's <a href="https://vibhu-agarwal.github.io/static/Vibhu_Resume_2021.pdf" target="_blank">resume</a>
 						<span className={styles.horizSpace}>&middot;</span>
 						Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" target="_blank">Dave Gandy</a>
 					</div>
