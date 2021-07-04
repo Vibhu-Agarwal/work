@@ -351,4 +351,6 @@ let projects = [
 	},
 ];
 
+console.log(JSON.stringify(projects, null, 4));
+
 export default projects;
