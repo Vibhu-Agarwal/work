@@ -44,8 +44,6 @@ Then use the `deploy.sh` script to deploy them to `gh-pages` branch.
 
 ## Resources
 
-This is my first React project. I was only able to complete it because of these resources.
-
 * `[React]` [Build with React Interactive Tutorial](http://buildwithreact.com/tutorial)
 * `[React]` [Official React Docs](https://facebook.github.io/react/docs/hello-world.html)
 * `[React]` [List of tutorials for getting started with React](http://andrewhfarmer.com/getting-started-tutorials/)
