@@ -4,6 +4,19 @@
 
 let projects = [
 	{
+		id: "quick-pdf",
+		name: "quick-pdf",
+		desc: [
+			"CLI for quick PDF handling 📄",
+			"Features: 1) Merging PDF in a given folder",
+		],
+		date: "2021-21",
+		github: "https://github.com/Vibhu-Agarwal/quickpdf",
+		websites: ["https://pypi.org/project/quick-pdf/"],
+		weight: 2,
+		tags: ["pdf", "cli", "python", "packaging", "pypi"],
+	},
+	{
 		id: "Hedwig",
 		name: "Hedwig 🦉💬",
 		desc: [
@@ -15,15 +28,7 @@ let projects = [
 		date: "2021-21",
 		github: "https://github.com/shawarmaKoders/Hedwig",
 		weight: 2,
-		tags: [
-			"asynchronous",
-			"python",
-			"webserver",
-			"fastapi",
-			"websockets",
-			"chat",
-			"redis",
-		],
+		tags: ["async", "python", "fastapi", "websockets", "chat", "redis"],
 	},
 	{
 		id: "Hostel-Adda",
